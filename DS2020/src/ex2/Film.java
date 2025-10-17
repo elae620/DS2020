@@ -10,11 +10,11 @@ import java.util.Scanner;
 
 
 public class Film {
-	private String Titre;
-	private String Realisateur;
-	private String PaysOrigine;
-	private int Duree;
-	private int NbPlaces;
+	protected String Titre;
+	protected String Realisateur;
+	protected String PaysOrigine;
+	protected int Duree;
+	protected int NbPlaces;
 
 	public Film(String titre,String realisateur,String pays,int duree) {
 		Titre=titre;
@@ -53,3 +53,4 @@ public class Film {
 
 
 }
+
