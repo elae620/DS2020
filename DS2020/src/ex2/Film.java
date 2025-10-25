@@ -45,12 +45,13 @@ public class Film {
 		do {
 			System.out.print("\nDonner le nombre des places pour etudiants: ");
 			nbEtudiants=sc.nextInt();
-		}while(this.getNbPlaces()<nbEtudiants);
-		float total=((this.getNbPlaces()-nbEtudiants)*3)+nbEtudiants*2;
+		}while(this.NbPlaces()<nbEtudiants);
+		float total=((this.NbPlaces()-nbEtudiants)*3)+nbEtudiants*2;
 		return (total);
 	}
 	
 
 
 }
+
 
