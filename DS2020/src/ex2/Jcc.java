@@ -13,7 +13,7 @@ public class Jcc {
 	}
 	
 	public void ajoutFilm(Film f) {
-		if (nbF<NBFMAX) {
+		if (nbF<competition.length) {
 			competition[nbF]=f;
 			nbF++;
 			System.out.print("\nFilm ajoutee!");
@@ -53,4 +53,5 @@ public class Jcc {
 	}
 
 }
+
  
