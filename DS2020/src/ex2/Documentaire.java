@@ -14,10 +14,11 @@ public class Documentaire extends Film {
 	}
 	
 	public float totalVenteBillets() {
-		return(getNbPlaces()*this.Tarif);
+		return(NbPlaces()*this.Tarif);
 	}
 	
 	
 
 
 }
+
